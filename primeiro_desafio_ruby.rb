@@ -2,15 +2,15 @@
 
 print "Informe seu primeiro nome: "
 
-nome = gets.to_s
+nome = gets.chomp
 
 print "Informe agora seu sobrenome: "
 
-sobrenome = gets.to_s
+sobrenome = gets.chomp
 
 print "E por fim, informe sua idade: "
 
 idade = gets.chomp.to_i
 
 
-print "Meu nome completo é "+nome+" "+sobrenome+" e tenho "+idade.to_s+" anos"""
+print "Meu nome completo é #{nome} #{sobrenome} e tenho #{idade} anos"
